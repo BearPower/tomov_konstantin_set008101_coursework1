@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Ciphers.css">
+		<title>Caesar Cipher</title>
+	</head>
+	<body>
+	<div>
+		<header>
+			<h1>Classical Ciphers</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a Class="manu" href="../Index.html">>>HOME</a></li>
+				<li><br/></li>
+				<li>CIPHERS:<li>
+				<li><br/></li>
+				<li><a Class="manu" href="ROT13.html">>>ROT 13(SC)</a></li>
+				<li><a Class="manu" href="Atbash.html">>>Atbash Cipher(SC)</a></li>
+				<li><br/>More coming soon :)</li>
+			</ul>
+		</nav>
+		<article>
+			<h1>Caesar Cipher (SC)</h1>
+				<h2>What is Caesar Cipher.</h2>
+				<p>Caesar cipher is one of the oldest ciphers.Used by the Caesar himself to send massages to his battalions in a secure way.The way it works is that every letter in the massage is replaced with another letter, fixed number ahead of it, also known as cipher key. The standard key used by Caesar was 3 therefore A=D but as this key can be any number between 1 and 25( 26 has no change in the letter as A will become A), the key can be substituted.  <br/><a href="https://en.wikipedia.org/wiki/Caesar_cipher">More Information</a></p>
+				<iframe width="600" height="350" src="https://www.youtube.com/embed/sMOZf4GN3oc"></iframe>
+				<h2>KEY</h2>
+				<p>Please choose a cipher key, the standard one used by Caesar was 3.</br> The key must be a number between 1 and 25!</br>Example of a key: 5 ( A=F)</p>
+				<textarea id="KeyNumber" rows="1"></textarea>
+				<h2>Try it out!</h2>
+				<p>Place you're message here.<br/>
+				<button type="button" onclick="CaessarI()" id="Encode">Encode</button>
+				<button type="button" onclick="CaessarD()" id="Encode">Decipher</button>
+				<textarea rows="15" id="message"></textarea>
+		</article>
+		<footer>
+			Creator: Konstantin Tomov , Contact:KTomov@gmail.com
+		</footer>
+	</div>
+	<script type="text/javascript" src="Ciphers.js"></script>
+	</body>
+</html>

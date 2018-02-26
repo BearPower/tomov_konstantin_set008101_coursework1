@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Ciphers.css">
+		<title>Atbash cipher</title>
+	</head>
+	<body>
+	<div>
+		<header>
+			<h1>Classical Ciphers</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a Class="manu" href="../Index.html">>>HOME</a></li>
+				<li><br/></li>
+				<li>CIPHERS:<li>
+				<li><br/></li>
+				<li><a Class="manu" href="ROT13.html">>>ROT 13(SC)</a></li>
+				<li><a Class="manu" href="Caesar.html">>>Caesar Cipher(SC)</a></li>
+				<li><br/>More coming soon :)</li>
+			</ul>
+		</nav>
+		<article>
+			<h1>Atbash Cipher (SC)</h1>
+				<h2>What is Atbash Cipher.</h2>
+				<p>Atbash is very insecure cipher, using the substitution method. The cipher substitutes the letters from the message with the prefixed key letters, example A=Z so all A in the message become Z.<br/><a href="https://en.wikipedia.org/wiki/Atbash">More Information</a></p>
+				<iframe width="600" height="350" src="https://www.youtube.com/embed/U2pFp7NviL4"></iframe>
+				<h2>KEY</h2>
+				<p><span>A</span>=Z<br/><span>B</span>=Y<br/><span>C</span>=X<br/><span>D</span>=W<br/><span>E</span>=V<br/><span>F</span>=U<br/><span>G</span>=T<br/><span>H</span>=S<br/><span>I</span>=R<br/><span>J</span>=Q<br/><span>K</span>=P<br/><span>L</span>=O<br/><span>M</span>=N<br/><span>N</span>=M<br/><span>O</span>=L<br/><span>P</span>=K<br/><span>Q</span>=J<br/><span>R</span>=I<br/><span>S</span>=H<br/><span>T</span>=G<br/><span>U</span>=F<br/><span>V</span>=E<br/><span>W</span>=D<br/><span>X</span>=C<br/><span>Y</span>=B<br/><span>Z</span>=A</p>
+				<h2>Try it out!</h2>
+				<p>Place you're message here.<br/>There is only one button as Encode/Decipher is the same process!</p>
+				<button type="button" onclick="AtbashEncode()" id="Encode">Encode/Decipher</button>
+				<textarea rows="15" id="message"></textarea>
+		</article>
+		<footer>
+			Creator: Konstantin Tomov , Contact:KTomov@gmail.com
+		</footer>
+	</div>
+	<script type="text/javascript" src="Ciphers.js"></script>
+	</body>
+</html>
